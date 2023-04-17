@@ -4,11 +4,11 @@ export const BookCard = ({ id, title, author, image, read }) => {
       <img src={image} alt={title} className="card-img" />
 
       <p>
-        <span>Title: </span>
+        <span style={{ fontWeight: "600" }}>Title: </span>
         {title}
       </p>
       <p>
-        <span>Author: </span>
+        <span style={{ fontWeight: "600" }}>Author: </span>
         {author}
       </p>
     </>

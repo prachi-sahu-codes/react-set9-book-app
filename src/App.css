@@ -6,42 +6,65 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #9d4edd1f;
+  /* background-color: #9d4edd11; */
+
+  position: relative;
 }
 
 .card {
-  width: 12rem;
-  height: 22rem;
+  width: 14rem;
+  /* height: 23.5rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
   background-color: #ffffff;
   box-shadow: 2px 2px 5px #ab9fb5a0;
-  padding: 0.5rem;
+  padding: 1rem 0.5rem;
   line-height: 1rem;
 }
 
 .card-flex {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   list-style: none;
   flex-wrap: wrap;
 }
-
-.card-img {
-  width: 11rem;
-  height: 16rem;
+p {
+  margin: 0.6rem 0.3rem 0 0.3rem;
+  line-height: 1.5rem;
 }
 
-/*
-
+.card-img {
+  width: 12rem;
+  height: 15rem;
+}
 
 .page-heading {
   text-align: center;
-  margin: 0.5rem;
+  margin: 1rem;
   color: var(--secondary);
 }
 
-li {
-  list-style: none;
+.sub-heading {
+  text-align: center;
+  color: var(--primary);
+}
+
+button {
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem 0.26rem;
+  cursor: pointer;
+  opacity: 0.95;
+}
+button:hover {
+  opacity: 1;
 }
 
 .navigation {
@@ -56,14 +79,41 @@ li {
   font-weight: 600;
 }
 
-.card {
-  margin: 1.3rem auto;
-  padding: 1rem;
-  width: 70%;
-  border-radius: 5px;
-  background-color: #9d4edd15;
-  box-shadow: 2px 2px 5px #7a2cbfa0;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px #ab9fb5a0;
+  padding: 0.5rem;
+  line-height: 1rem;
+}
+.profile-card > img {
+  width: 400px;
+  height: 200px;
+}
+
+/*
+
+
+
+
+li {
+  list-style: none;
+}
+
+
+
+
 
 .card-link {
   font-weight: 600;
@@ -79,23 +129,7 @@ li {
   justify-content: space-between;
 }
 
-button {
-  font-weight: 600;
-  color: #fff;
-  background-color: var(--primary);
-  border: none;
-  border-radius: 5px;
-  padding: 0.5rem;
-  cursor: pointer;
-  opacity: 0.95;
-}
-button:hover {
-  opacity: 1;
-}
 
-.sub-heading {
-  text-align: center;
-  color: var(--primary);
-}
+
 
 */
